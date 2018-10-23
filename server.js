@@ -31,9 +31,11 @@ app.use( (req,res, next) => {
 	next();
 });
 
+/*
 app.use((req,res,next)=>{
 	res.render('maintenance.hbs');
 });
+*/
 
 //usa la funzione middleware express.static
 app.use(express.static(__dirname+'/public'));
