@@ -5,16 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "script": "node server.js"
   },
-  "author": "Andrew Mead",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.13.1",
     "express": "^4.14.0",
-    "hbs": "^4.0.1",
-    "lodash": "^4.13.1",
-    "request": "^2.88.0",
-    "yargs": "^4.8.1"
+    "hbs": "^4.0.0"
   }
 }

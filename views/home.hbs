@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Some website</title>	
-	</head>
-	
-	<body>
-		{{> header}}
-		{{> footer}}
+  <head>
+    <meta charset="utf-8">
+    <title>Some Website</title>
+  </head>
+  <body>
+    {{> header}}
 
-		<!--<p>{{welcomeMessage}}</p> -->
-		<!-- richiama la funzione screamIt definita tramite hbs.registerHelper e usa welcomeMessage come argomento -->
-		<p>{{screamIt welcomeMessage}}</p>
-	
-	</body>
+    <p>{{screamIt welcomeMessage}}</p>
+
+    {{> footer}}
+  </body>
 </html>
